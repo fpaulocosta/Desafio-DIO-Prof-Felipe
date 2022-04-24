@@ -1,0 +1,133 @@
+:root{
+--vermelho:#E50914;
+--preto: #141414;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* elementos base */
+body{
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial black";
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration:none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+/* filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.100)), url('/Meus_Projetos/javascript/img/era_do_gelo.jpg');
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: #141414;
+}
+.botao i{
+    margin-right: 5px;
+}
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+    width: 60%;
+}
+
+.carrocel-filmes{
+    margin-top: 5px;
+}
+
+.box-filme{
+    height: 350;
+    width: 350;
+    display: block;
+}
+.ul_1{
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #111;
+      
+}
+.li_1{
+    float: left;
+    color: red;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+  }
+  .li_a_1{
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+  }
+  
+  .li_a_1:hover {
+    background-color: black;
+  }
+  .paragrafo{
+    text-decoration:none;
+    color: #AAA;
+    margin-left: 20px;
+  }
+  .paragrafo:hover{
+    color: #fff;
+  }
+  .desc_T{
+    text-decoration:none;
+    color: #AAA;
+    margin-left: 10px;
+  }
+  
+  
